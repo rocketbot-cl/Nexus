@@ -1269,8 +1269,8 @@
         {
             "title": {
                 "en": "List Queries",
-                "es": "Listar Consultas",
-                "pr": "Listar Consultas"
+                "es": "Listar Queries",
+                "pr": "Listar Queries"
             },
             "description": {
                 "en": "Returns all saved queries available for this API Key.",
