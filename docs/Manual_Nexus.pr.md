@@ -134,7 +134,7 @@ Apaga todas as linhas de uma tabela sem excluir a tabela.
 |Nome da sessão|Nome da sessão usada ao conectar.|default|
 |Variável resultado|Variável onde True será armazenado em caso de sucesso.|resultado|
 
-### Listar Consultas
+### Listar Queries
   
 Retorna todas as consultas salvas para esta API Key.
 |Parâmetros|Descrição|exemplo|

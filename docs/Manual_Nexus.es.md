@@ -134,7 +134,7 @@ Borra todas las filas de una tabla sin eliminar la tabla.
 |Nombre de sesión|Nombre de sesión utilizado al conectar.|default|
 |Variable resultado|Variable donde se almacenará True si fue exitoso.|resultado|
 
-### Listar Consultas
+### Listar Queries
   
 Retorna todas las consultas guardadas para esta API Key.
 |Parámetros|Descripción|ejemplo|
