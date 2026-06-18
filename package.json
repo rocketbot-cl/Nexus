@@ -302,9 +302,9 @@
                 "pr": "Criar Tabela"
             },
             "description": {
-                "en": "Creates a new table.",
-                "es": "Crea una nueva tabla.",
-                "pr": "Cria uma nova tabela."
+                "en": "Creates a new table in Nexus from a JSON definition. The table schema should be sent using schema.columns.",
+                "es": "Crea una nueva tabla en Nexus a partir de una definición JSON. El esquema de la tabla debe enviarse usando schema.columns.",
+                "pr": "Cria uma nova tabela em Nexus a partir de uma definição JSON. O esquema da tabela deve ser enviado usando schema.columns."
             },
             "form": {
                 "css": "modal-lg",
@@ -312,9 +312,9 @@
                     {
                         "type": "textarea",
                         "placeholder": {
-                            "en": "{\"name\": \"products\", \"columns\": []}",
-                            "es": "{\"name\": \"productos\", \"columns\": []}",
-                            "pr": "{\"name\": \"produtos\", \"columns\": []}"
+                            "en": "{\n  \"name\": \"rb_test_nexus\",\n  \"displayName\": \"RB Test Nexus\",\n  \"schema\": {\n    \"columns\": [\n      {\n        \"name\": \"nombre\",\n        \"type\": \"string\",\n        \"displayName\": \"Nombre\",\n        \"required\": false\n      },\n      {\n        \"name\": \"cantidad\",\n        \"type\": \"number\",\n        \"displayName\": \"Cantidad\",\n        \"required\": false\n      },\n      {\n        \"name\": \"fecha\",\n        \"type\": \"date\",\n        \"displayName\": \"Fecha\",\n        \"required\": false\n      }\n    ]\n  }\n}",
+                            "es": "{\n  \"name\": \"rb_test_nexus\",\n  \"displayName\": \"RB Test Nexus\",\n  \"schema\": {\n    \"columns\": [\n      {\n        \"name\": \"nombre\",\n        \"type\": \"string\",\n        \"displayName\": \"Nombre\",\n        \"required\": false\n      },\n      {\n        \"name\": \"cantidad\",\n        \"type\": \"number\",\n        \"displayName\": \"Cantidad\",\n        \"required\": false\n      },\n      {\n        \"name\": \"fecha\",\n        \"type\": \"date\",\n        \"displayName\": \"Fecha\",\n        \"required\": false\n      }\n    ]\n  }\n}",
+                            "pr": "{\n  \"name\": \"rb_test_nexus\",\n  \"displayName\": \"RB Test Nexus\",\n  \"schema\": {\n    \"columns\": [\n      {\n        \"name\": \"nome\",\n        \"type\": \"string\",\n        \"displayName\": \"Nome\",\n        \"required\": false\n      },\n      {\n        \"name\": \"quantidade\",\n        \"type\": \"number\",\n        \"displayName\": \"Quantidade\",\n        \"required\": false\n      },\n      {\n        \"name\": \"data\",\n        \"type\": \"date\",\n        \"displayName\": \"Data\",\n        \"required\": false\n      }\n    ]\n  }\n}"
                         },
                         "title": {
                             "en": "Table definition (JSON)",
@@ -322,9 +322,9 @@
                             "pr": "Definição da tabela (JSON)"
                         },
                         "description": {
-                            "en": "JSON object with the table name and columns.",
-                            "es": "Objeto JSON con el nombre y columnas de la tabla.",
-                            "pr": "Objeto JSON com o nome e colunas da tabela."
+                            "en": "Valid JSON object used to create the table. Use double quotes and define the columns within schema.columns. Each column must include name, type, displayName, and required. Supported types: string, number, and date.",
+                            "es": "Objeto JSON válido utilizado para crear la tabla. Use comillas dobles y defina las columnas dentro de schema.columns. Cada columna debe incluir name, type, displayName y required. Tipos soportados: string, number y date.",
+                            "pr": "Objeto JSON válido utilizado para criar a tabela. Use aspas duplas e defina as colunas dentro de schema.columns. Cada coluna deve incluir name, type, displayName e required. Tipos suportados: string, number e date."
                         },
                         "id": "table_data",
                         "css": "col-md-12"
